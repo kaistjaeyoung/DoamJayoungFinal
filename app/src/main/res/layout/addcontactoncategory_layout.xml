@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:text="이 목록에 연락처 추가하기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/CategoryAddition"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:ems = "10"
+        android:layout_marginTop="10dp"
+        android:hint= "추가할 친구 이름"
+        android:id = "@+id/EditCategory"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:ems = "10"
+        android:layout_marginTop="10dp"
+        android:hint= "추가할 친구 번호"
+        android:id = "@+id/EditCategory2"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="확인"
+        android:textColor="@android:color/white"
+        android:id="@+id/CertainButton"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="취소"
+        android:textColor="@android:color/white"
+        android:id="@+id/CancelButton"
+
+        />
+
+
+</LinearLayout>
